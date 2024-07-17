@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Marketing Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .links-de-compras a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            text-decoration: none;
+            color: #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .links-de-compras a:hover {
+            background-color: #f1f1f1;
+        }
+        .formulario-contato input, .formulario-contato textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .formulario-contato button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 1rem;
+            }
+            .formulario-contato input, .formulario-contato textarea {
+                font-size: 16px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .container {
+                width: 95%;
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            h2 {
+                font-size: 1.25rem;
+            }
+            .formulario-contato input, .formulario-contato textarea {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site de Marketing Digital</h1>
+        <nav>
+            <a href="#servicos">Serviços</a>
+            <a href="#links-de-compras">Links de Compras</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    
+    <section id="servicos" class="container">
+        <h2>Serviços</h2>
+        <p>Oferecemos uma ampla gama de serviços de marketing digital para ajudar o seu negócio a crescer.</p>
+    </section>
+
+    <section id="links-de-compras" class="container">
+        <h2>Links de Compras</h2>
+        <div class="links-de-compras">
+            <a href="#">Produto 1</a>
+            <a href="#">Produto 2</a>
+            <a href="#">Produto 3</a>
+            <a href="#">Produto 4</a>
+        </div>
+    </section>
+    
+    <section id="depoimentos" class="container">
+        <h2>Depoimentos</h2>
+        <p>"Excelente serviço! Ajudaram meu negócio a alcançar novos patamares."</p>
+        <p>"Profissionais extremamente competentes e resultados incríveis."</p>
+    </section>
+    
+    <section id="contato" class="container">
+        <h2>Contato</h2>
+        <form class="formulario-contato">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu email" required>
+            <textarea name="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Meu Site de Marketing Digital. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
